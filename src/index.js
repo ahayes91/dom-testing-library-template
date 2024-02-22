@@ -1,9 +1,5 @@
 import React from 'react'
 
-function Counter() {
-  const [count, setCount] = React.useState(0)
-  const increment = () => setCount(c => c + 1)
-  return <button onClick={increment}>{count}</button>
+export const ImageWithEmptyAlt = () => {
+  return <img alt="" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
 }
-
-export default Counter
